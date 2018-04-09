@@ -1,7 +1,7 @@
 package com.pattern.singleton.test;
 
 
-import com.pattern.singleton.lazy.LazyOne;
+import com.pattern.singleton.lazy.LazyThree;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -37,7 +37,7 @@ public class ThreadSafeTest {
                         }
 
                         //必然会调用，可能会有很多线程同时去访问getInstance()
-                        Object obj = LazyOne.getInstance();
+                        Object obj = LazyThree.getInstance();
                         System.out.println(System.currentTimeMillis() + ":" + obj);
 
                     }catch (Exception e){

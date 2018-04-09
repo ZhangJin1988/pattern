@@ -1,11 +1,7 @@
 package com.pattern.proxy.custom;
 
-import com.gupaoedu.vip.pattern.proxy.jdk.JDK58;
-import com.gupaoedu.vip.pattern.proxy.jdk.XieMu;
-import com.gupaoedu.vip.pattern.proxy.staticed.Person;
-import sun.misc.ProxyGenerator;
-
-import java.io.FileOutputStream;
+import com.pattern.proxy.jdk.XieMu;
+import com.pattern.proxy.staticed.Person;
 
 /**
  * Created by Tom on 2018/3/10.

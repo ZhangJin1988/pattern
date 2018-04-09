@@ -7,20 +7,16 @@ import java.util.Date;
  * Created by Tom on 2018/3/7.
  */
 public class QiTianDaSheng extends Monkey implements Cloneable,Serializable {
-
     public JinGuBang jinGuBang;
-
     public  QiTianDaSheng(){
         //只是初始化
         this.birthday = new Date();
         this.jinGuBang = new JinGuBang();
     }
-
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return this.deepClone();
     }
-
 
     public Object deepClone(){
         try{
@@ -42,7 +38,6 @@ public class QiTianDaSheng extends Monkey implements Cloneable,Serializable {
         }
 
     }
-
 
     public QiTianDaSheng copy(QiTianDaSheng target){
 

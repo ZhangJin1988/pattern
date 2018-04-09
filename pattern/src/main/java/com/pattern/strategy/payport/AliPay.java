@@ -1,13 +1,13 @@
 package com.pattern.strategy.payport;
 
-import com.gupaoedu.vip.pattern.strategy.pay.PayState;
+
+import com.pattern.strategy.pay.PayState;
 
 /**
  * Created by Tom on 2018/3/11.
  */
 public class AliPay implements Payment {
 
-    @Override
     public PayState pay(String uid, double amount) {
         System.out.println("欢迎使用支付宝");
         System.out.println("查询账户余额，开始扣款");

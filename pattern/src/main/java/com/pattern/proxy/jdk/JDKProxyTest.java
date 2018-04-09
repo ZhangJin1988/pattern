@@ -1,6 +1,6 @@
 package com.pattern.proxy.jdk;
 
-import com.gupaoedu.vip.pattern.proxy.staticed.Person;
+import com.pattern.proxy.staticed.Person;
 import sun.misc.ProxyGenerator;
 
 import java.io.FileOutputStream;

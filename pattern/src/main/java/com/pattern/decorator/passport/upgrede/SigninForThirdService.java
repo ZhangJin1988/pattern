@@ -1,7 +1,9 @@
 package com.pattern.decorator.passport.upgrede;
 
-import com.gupaoedu.vip.pattern.decorator.passport.old.ISigninService;
-import com.gupaoedu.vip.pattern.decorator.passport.old.ResultMsg;
+
+import com.pattern.decorator.passport.old.ISigninService;
+import com.pattern.decorator.passport.old.ResultMsg;
+import com.pattern.decorator.passport.old.SigninService;
 
 /**
  * Created by Tom on 2018/3/17.
@@ -13,12 +15,13 @@ public class SigninForThirdService implements ISigninForThirdService {
         this.service = service;
     }
 
-    @Override
+    public SigninForThirdService(SigninService signinService) {
+    }
+
     public ResultMsg regist(String username, String password) {
         return service.regist(username,password);
     }
 
-    @Override
     public ResultMsg login(String username, String password) {
         return service.login(username,password);
     }

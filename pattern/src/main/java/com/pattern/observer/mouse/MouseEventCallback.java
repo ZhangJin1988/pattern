@@ -1,6 +1,7 @@
 package com.pattern.observer.mouse;
 
-import gupaoedu.vip.pattern.observer.core.Event;
+
+import com.pattern.observer.core.Event;
 
 /**
  * 观察者

@@ -1,6 +1,7 @@
 package com.pattern.proxy.jdk;
 
-import com.gupaoedu.vip.pattern.proxy.staticed.Person;
+
+import com.pattern.proxy.staticed.Person;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

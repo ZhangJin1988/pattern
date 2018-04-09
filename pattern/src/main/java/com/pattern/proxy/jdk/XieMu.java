@@ -1,11 +1,12 @@
 package com.pattern.proxy.jdk;
 
-import com.gupaoedu.vip.pattern.proxy.staticed.Person;
+
+import com.pattern.proxy.staticed.Person;
 
 /**
  * Created by Tom on 2018/3/10.
  */
-public class XieMu implements Person{
+public class XieMu implements Person {
 
     public void findLove(){
         System.out.println("高富帅");

@@ -1,6 +1,7 @@
 package com.pattern.delegate.mvc;
 
-import com.gupaoedu.vip.pattern.delegate.mvc.controllers.MemberAction;
+
+import com.pattern.delegate.mvc.controllers.MemberAction;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

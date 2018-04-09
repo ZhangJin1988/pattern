@@ -1,9 +1,9 @@
 package com.pattern.proxy.custom;
 
-import com.gupaoedu.vip.pattern.proxy.staticed.Person;
+
+import com.pattern.proxy.staticed.Person;
 
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 
 /**
  * Created by Tom on 2018/3/10.

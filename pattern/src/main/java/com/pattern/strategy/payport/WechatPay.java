@@ -1,6 +1,7 @@
 package com.pattern.strategy.payport;
 
-import com.gupaoedu.vip.pattern.strategy.pay.PayState;
+
+import com.pattern.strategy.pay.PayState;
 
 /**
  * Created by Tom on 2018/3/11.

@@ -1,6 +1,7 @@
 package com.pattern.observer.subject;
 
-import gupaoedu.vip.pattern.observer.core.Event;
+
+import com.pattern.observer.core.Event;
 
 /**
  * Created by Tom on 2018/3/17.
