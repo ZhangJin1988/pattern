@@ -8,7 +8,7 @@ import com.zhangjin.factory.bean.Mouse;
 /**
  * Created by zhangjin on 2018/4/20.
  */
-public class HpFactory implements PcFactory {
+public class HpFactory extends PcFactory {
     @Override
     public Mouse createMouse() {
         return new HpMouse();

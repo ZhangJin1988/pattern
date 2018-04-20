@@ -8,7 +8,7 @@ import com.zhangjin.factory.bean.Mouse;
 /**
  * Created by zhangjin on 2018/4/20.
  */
-public class DellFactory implements PcFactory {
+public class DellFactory extends PcFactory {
     @Override
     public Mouse createMouse() {
         return new DellMouse();
