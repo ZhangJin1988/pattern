@@ -3,18 +3,18 @@ package com.zhangjin.builder;
 /**
  * Created by zhangjin on 2018/4/20.
  */
-public class Director  {
+public class Director {
 
 
     private Builder builder;
 
 
-    public Director(Builder builder){
+    public Director(Builder builder) {
         this.builder = builder;
     }
 
 
-    public  SmartCar construct(){
+    public SmartCar construct() {
 
         builder.buildWheel();
         builder.buildSteeringWheel();
@@ -33,7 +33,6 @@ public class Director  {
         SmartCar construct = director.construct();
         System.out.println(construct);
     }
-
 
 
 }
